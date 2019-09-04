@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+  <meta charset="utf-8">
+  <title>JavaScript program of Bubble sort</title>
+  </head>
+  <body>
+
+    <p id="main">The Entered String is [3, 0, 2, 5, -1, 4, 1] </p>
+    <p>The Sorted string is</p>
+    <p id="result"></p>
+      <script>
+          function swap(arr, first_Index, second_Index){
+    var temp = arr[first_Index];
+    arr[first_Index] = arr[second_Index];
+    arr[second_Index] = temp;
+}
+
+function bubble_Sort(arr){
+
+    var len = arr.length,
+        i, j, stop;
+
+    for (i=0; i < len; i++){
+        for (j=0, stop=len-i; j < stop; j++){
+            if (arr[j] > arr[j+1]){
+                swap(arr, j, j+1);
+            }
+        }
+    }
+
+    return arr;
+}
+var sorted=bubble_Sort([3, 0, 2, 5, -1, 4, 1]);
+
+document.getElementById("result").innerHTML = sorted;
+
+
+      </script>
+  </body>
+</html>

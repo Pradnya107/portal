@@ -1,0 +1,3 @@
+-fs(file system in nodejs)  //event part  [__.on('event name',(data){ console.log(_); });  ]
+-MQTT (automation system-publish/subscribe logic)
+-Default values

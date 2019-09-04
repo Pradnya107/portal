@@ -1,0 +1,18 @@
+.body{
+    text-align: left;
+    float: left;
+    text-decoration-color: aquamarine;
+    size: 4ch;
+    background-color:cornsilk;
+    font-size: 200%;
+
+}
+
+.body2{
+    text-align: right;
+    text-decoration-color: aquamarine;
+    size: 4ch;
+    background-color:cornsilk;
+    font-size: 200%;
+}
+

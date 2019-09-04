@@ -1,0 +1,10 @@
+-arrow function
+-destructuring
+-rest/spread generation
+-settimeout
+-event loop/async
+-event emitter (large amount of data comming contineously in sequence)
+-promise
+-rest api
+-http
+-ssl
