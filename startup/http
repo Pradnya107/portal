@@ -1,5 +1,0 @@
--post(sending post through body in http post)
--get(get data from post in url itself)//http://siesgst.in/profile?prn & name="" & .....info other
-rarest method used in http  (can be done by post & get)//put & delete
--put
--delete
