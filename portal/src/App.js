@@ -1,10 +1,12 @@
 import React from 'react';
-import Homepage from './homepage.component'
+import HomepageC from './homepage/HomepageC';
 
 function App() {
   return (
     <div>
-     <Homepage />
+     <HomepageC />
+     
+   
     </div>
   );
 }
