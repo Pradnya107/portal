@@ -4,7 +4,6 @@ import MuiThemeProvider from
 import AppBar from 'material-ui/AppBar';
 import TextField from 'material-ui/TextField';
 import RaisedButton from 'material-ui/RaisedButton';
-import './form.scss';
 
 export class FormUserDetails extends Component {
     continue = e => {
@@ -15,10 +14,9 @@ export class FormUserDetails extends Component {
     render() {
         const { values , handleChange } = this.props;
         return (
-           <MuiThemeProvider className='form'>
+           <MuiThemeProvider>
                <React.Fragment>
-                   <AppBar
-                   title="ENTER YOUR DETAILS"   />
+                   <AppBar title="enter user details"  />
                    <TextField 
                       hintText="Enter Your Name"
                       floatingLabelText="Name"

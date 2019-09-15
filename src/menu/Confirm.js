@@ -22,7 +22,7 @@ export class FormUserDetails extends Component {
         return (
            <MuiThemeProvider>
                <React.Fragment>
-                   <AppBar title="CONFIRM"  />
+                   <AppBar title="Confirm"  />
                    <List>
                        <ListItem
                        primaryText="Name"

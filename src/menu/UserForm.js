@@ -3,7 +3,6 @@ import FormUserDetails from './FormUserDetails';
 import FormPersonalDetails from './FormPersonalDetails';
 import Confirm from './Confirm';
 import Success from './Success';
-import Homepagenext from '..//homepage/Homepagenext';
 
 class UserForm extends Component {
     state = {
@@ -46,34 +45,24 @@ class UserForm extends Component {
         const values = { Name,PRN ,Email,Gender ,Branch,Semester,Year,Contact ,Address ,Interest };
 
         switch (step) {
-
-        case 1:
-            return(
-                <Homepagenext
-                    nextStep={this.nextStep}
-                />
-             );
-
-        case 2:
-            return (
-                <FormUserDetails
-                    nextStep= {this.nextStep}
-                    handleChange={this.handleChange}
-                    values={values}
-                 />
-            );
-
-        case 3:
-            return (
-                <FormPersonalDetails
-                    nextStep= {this.nextStep}
-                    prevStep={this.prevStep}
-                    handleChange={this.handleChange}
-                    values={values}
-                />
+            case 1:
+                return (
+                   <FormUserDetails
+                        nextStep= {this.nextStep}
+                        handleChange={this.handleChange}
+                        values={values}
+                    />
+                  );
+            case 2:
+                 return (
+                    <FormPersonalDetails
+                         nextStep= {this.nextStep}
+                         prevStep={this.prevStep}
+                         handleChange={this.handleChange}
+                         values={values}
+                     />
                    );
-
-        case 4:
+            case 3:
             return (
                 <Confirm
                      nextStep= {this.nextStep}
@@ -82,8 +71,8 @@ class UserForm extends Component {
                  />
                );
                 
-        case 5:
-            return <Success />;    
+            case 4:
+                 return <Success />;    
                 
         }
     }
