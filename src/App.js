@@ -1,12 +1,11 @@
 import React from 'react';
-import HomepageC from './homepage/HomepageC';
+import UserForm from './menu/UserForm';
+
 
 function App() {
   return (
     <div>
-     <HomepageC />
-     
-   
+      <UserForm/>
     </div>
   );
 }

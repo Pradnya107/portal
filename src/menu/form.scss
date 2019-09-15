@@ -1,0 +1,10 @@
+.form {
+    
+        display: 'flex';
+        flex-Direction: 'column';
+        width: '100%';
+        box-Sizing: 'border-box'; 
+        z-Index: theme-zIndex-appBar;
+        flex-Shrink: 0
+      
+}
