@@ -1,4 +1,5 @@
 
+
 .bottom {
   background-color: rgb(223, 238, 248);
   opacity: 0.9;
@@ -33,71 +34,4 @@ p {
     
 }
 
-}
-
-.corousel-effect {
-    
-    display: flex;
-    height: 50px;
-    width: 350px;
-    padding: 30px 70px;
-    flex-direction: column;
-    align-items: center;
-     > * {
-       flex: 0 0 auto;
-    }
-    
-}
-
-.button{
-  
-    min-width: 105px;
-
-  letter-spacing: 0.5px;
-  line-height: 50px;
-  padding: 0 35px 0 35px;
-  font-size: 15px;
-  padding-bottom:30px;
-  position:absolute; 
-  margin-left:auto;
-  height: 20px;;
-  width:400px;
-  bottom:180px;
-display: block;
-
-
-}
-
-.button-click {
-    min-width: 105px;
-   letter-spacing: 0.5px;
-  line-height: 45px;
-  padding: 0 35px 0 35px;
- background-color: rgb(25, 26, 27);
-  color: white;
-  text-transform: uppercase;
-  font-family: 'Open Sans Condensed';
-  font-weight: bolder;
-  border: none;
-  cursor: pointer;
-   float: right;
-
-  &:hover {
-    background-color: white;
-    color: rgb(4, 55, 75);
-    border: 1px solid black;
-    
-  }
-}
-
-.corousel-effect {
-display: flex;
-height: 50px;
-width: 350px;
-padding: 30px 70px;
-flex-direction: column;
-align-items: center;
- > * {
-   flex: 0 0 auto;
-}
 }

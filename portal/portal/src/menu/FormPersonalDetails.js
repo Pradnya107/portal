@@ -21,7 +21,7 @@ export class FormPersonalDetails extends Component {
         return (
            <MuiThemeProvider>
                <React.Fragment>
-                   <AppBar title="enter user details"  />
+                   <AppBar title="ENTER YOUR DETAILS"  />
                    <TextField 
                       hintText="Enter Your Branch"
                       floatingLabelText="Branch"
