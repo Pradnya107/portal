@@ -4,6 +4,7 @@ import MuiThemeProvider from
 import AppBar from 'material-ui/AppBar';
 import TextField from 'material-ui/TextField';
 import RaisedButton from 'material-ui/RaisedButton';
+import './decorate.scss';
 
 export class FormPersonalDetails extends Component {
     continue = e => {
@@ -21,7 +22,9 @@ export class FormPersonalDetails extends Component {
         return (
            <MuiThemeProvider>
                <React.Fragment>
-                   <AppBar title="enter user details"  />
+                   <div className='container'>
+                   <AppBar title="ENTER YOUR DETAILS"  />
+                   <div className='inside'>
                    <TextField 
                       hintText="Enter Your Branch"
                       floatingLabelText="Branch"
@@ -29,41 +32,43 @@ export class FormPersonalDetails extends Component {
                       defaultValue={values.Branch}
                    />
                    <br/>
+                   <br/>
                    <TextField 
                       hintText="Semester"
                       floatingLabelText="Enter your Semester"
                       onChange={handleChange('Semester')}
                       defaultValue={values.Semester}
                    />
-                   <br/>
+                   <br/><br/>
                    <TextField 
                       hintText="Year"
                       floatingLabelText="Enter your Year"
                       onChange={handleChange('Year')}
                       defaultValue={values.Year}
                    />
-                   <br/>
+                   <br/><br/>
                    <TextField 
                       hintText="Contact"
                       floatingLabelText="Contact"
                       onChange={handleChange('Contact')}
                       defaultValue={values.Contact}
                    />
-                   <br/>
+                   <br/><br/>
                    <TextField 
                       hintText="Address"
                       floatingLabelText="Address"
                       onChange={handleChange('Address')}
                       defaultValue={values.Address}
                    />
-                   <br/>
+                   <br/><br/>
                    <TextField 
                       hintText="Interest"
                       floatingLabelText="Area of Interest"
                       onChange={handleChange('Interest')}
                       defaultValue={values.Interest}
                    />
-                   <br/>
+                   <br/><br/>
+                   
                    <RaisedButton  
                        label="Continue"
                        primary={true}
@@ -76,6 +81,7 @@ export class FormPersonalDetails extends Component {
                        style={styles.button}
                        onClick = {this.back}
                        />
+                       </div></div>
                 </React.Fragment>
            </MuiThemeProvider>
         )

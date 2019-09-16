@@ -4,6 +4,7 @@ import MuiThemeProvider from
 import AppBar from 'material-ui/AppBar';
 import {List,ListItem} from 'material-ui/List';
 import RaisedButton from 'material-ui/RaisedButton';
+import './decorate.scss';
 
 export class FormUserDetails extends Component {
     continue = e => {
@@ -22,6 +23,7 @@ export class FormUserDetails extends Component {
         return (
            <MuiThemeProvider>
                <React.Fragment>
+               <div className='container'>
                    <AppBar title="Confirm"  />
                    <List>
                        <ListItem
@@ -77,6 +79,7 @@ export class FormUserDetails extends Component {
                        style={styles.button}
                        onClick = {this.back}
                        />
+                       </div>
                 </React.Fragment>
            </MuiThemeProvider>
         )

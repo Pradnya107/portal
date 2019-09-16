@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import MuiThemeProvider from 
 'material-ui/styles/MuiThemeProvider';
 import AppBar from 'material-ui/AppBar';
+import './decorate.scss';
  
 export class Success extends Component {
     continue = e => {
@@ -18,8 +19,10 @@ export class Success extends Component {
         return (
            <MuiThemeProvider>
                <React.Fragment>
-                   <AppBar title="Success"  />
+               <div className='container'>
+                   <AppBar title="Successfully Submitted"  />
                    <h1>Thank You For Your Submission</h1>
+                   </div>
                 </React.Fragment>
            </MuiThemeProvider>
         )
