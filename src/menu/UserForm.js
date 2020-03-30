@@ -84,7 +84,9 @@ class UserForm extends Component {
                 
         case 5:
             return <Success />;    
-                
+        
+            default:
+            // do nothing
         }
     }
 }

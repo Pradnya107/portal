@@ -31,15 +31,15 @@ export class Homepagenext extends Component {
               
                 <Carousel  defaultWait={1000} className='corousel-effect'>
                 <div>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRqTSqjXC1Ma3RoQouM_lIzErWUeZLCI0RsICGp_RisfNo4k9i" />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRqTSqjXC1Ma3RoQouM_lIzErWUeZLCI0RsICGp_RisfNo4k9i"  alt="railway"/>
                     
                 </div>
                 <div>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCUeC0S5cY_DshihaSvNkK4VL1qzVTc6JW3zOkYYlVPU2aNXce" />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCUeC0S5cY_DshihaSvNkK4VL1qzVTc6JW3zOkYYlVPU2aNXce" alt="calender" />
                    
                 </div>
                 <div>
-                    <img src="https://previews.123rf.com/images/imagevectors/imagevectors1601/imagevectors160100814/50600321-flat-blue-pen-and-paper-icon-on-circle-web-button-on-white.jpg" />
+                    <img src="https://previews.123rf.com/images/imagevectors/imagevectors1601/imagevectors160100814/50600321-flat-blue-pen-and-paper-icon-on-circle-web-button-on-white.jpg" alt="form" />
                     
                 </div>
             </Carousel>
